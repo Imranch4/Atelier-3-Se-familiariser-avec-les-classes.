@@ -25,7 +25,7 @@ void afficherInfo() const {
 
 int main(){
 
-Voiture v1;
+Voiture v1("JEEP", "Renegade", 2020, 74000.0, 220.0);
 v1.afficherInfo();
 return 0;
 }
